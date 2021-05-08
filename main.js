@@ -23,7 +23,7 @@ function add_item() {
     menu_list.push(items);
 
     for (var i = 0; i < menu_list.length ; i++) {
-        data = data + "<div class='card'><img src='images/pizzaIMG.png'>" + menu_list[i] + "</div>";
+        data = data + "<div class='card'><img src='images/pizza.png'>" + menu_list[i] + "</div>";
         console.log(data);
 
     }
